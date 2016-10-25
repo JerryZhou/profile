@@ -31,7 +31,7 @@ WHITE="\[\e[1;37m\]"
 source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
 
 # Change command prompt display
-export PS1="${GREEN}\u:${YELLOW}\w${PURPLE}\$(__git_ps1) \$\e[m"
+export PS1="${GREEN}\u:\w${YELLOW}\$(__git_ps1) ${GREEN}\$\e[m"
 
 # Meta alias's
 # alias osu="open -a Sublime\ Text\ 2"
