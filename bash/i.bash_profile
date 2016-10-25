@@ -82,3 +82,7 @@ tosu () {
 alias httpserver="python -m SimpleHTTPServer"
 
 export REPLYTO=jerryzhou@outlook.com  # put your email address here
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
