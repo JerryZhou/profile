@@ -90,3 +90,7 @@ fi
 export GOPATH=~/Documents/selfgo
 export GOBIN=~/Documents/selfgo/bin
 
+# add go-bin-dir to path
+export PATH=$GOBIN:$PATH
+
+
