@@ -192,5 +192,6 @@ set softtabstop=4           " 使得按退格键时可以一次删掉 4 个空�
 set expandtab               " 禁掉tab
 
 set mouse=a                 " 开启Mouse 支持
+set wrap                    " 自动换行
 
 
