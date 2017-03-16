@@ -93,4 +93,18 @@ export GOBIN=~/Documents/selfgo/bin
 # add go-bin-dir to path
 export PATH=$GOBIN:$PATH
 
+# pkg-cnfig
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+
+# chromuin-build-tools 
+export DEOPT_TOOLS=~/Documents/open-source/depot_tools
+export PATH=$DEOPT_TOOLS:$PATH
+
+# vim swp file tools
+alias swpshow="find . -name '*.swp'"
+alias swpclear="find . -name '*.swp' | xargs rm -v"
+
+# little tools
+alias ll="ls -lah"
+
 
